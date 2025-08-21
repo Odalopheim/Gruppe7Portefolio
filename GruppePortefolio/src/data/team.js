@@ -2,7 +2,7 @@
 export const team = [
   {
     name: "Eline",
-    role: "Frontend Developer",
+    role: "Frontend Developer, Skrum Master",
     image: "/images/ola.jpg",
     socials: {
       github: "https://github.com/ElineWi",
@@ -11,7 +11,7 @@ export const team = [
   },
   {
     name: "Joel",
-    role: "Designer",
+    role: "",
     image: "/images/joel.png",
     socials: {
       github: "https://github.com/jmarkussen",
@@ -20,7 +20,7 @@ export const team = [
   },
     {
     name: "Maja",
-    role: "Frontend Developer",
+    role: "Backend Developer",
     image: "/images/maja.png",
     socials: {
       github: "https://github.com/majskolbe",
@@ -42,7 +42,7 @@ export const team = [
     image: "",
     socials: {
       github: "https://github.com/sarastray",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/sara-marie-stray"
     }
   }
 ];
