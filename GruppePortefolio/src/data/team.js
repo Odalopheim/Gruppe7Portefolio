@@ -3,7 +3,7 @@ export const team = [
   {
     name: "Eline",
     role: "UX-Designer, Scrum Master",
-    image: "/images/ola.jpg",
+    image: "/images/eline.jpg",
     socials: {
       github: "https://github.com/ElineWi",
       linkedin: "https://linkedin.com/in/eline-widvey"
