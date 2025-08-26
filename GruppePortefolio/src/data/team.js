@@ -7,7 +7,8 @@ export const team = [
     socials: {
       github: "https://github.com/ElineWi",
       linkedin: "https://linkedin.com/in/eline-widvey"
-    }
+    },
+    cv: "/cv/eline.pdf"
   },
   {
     name: "Joel",
@@ -16,7 +17,8 @@ export const team = [
     socials: {
       github: "https://github.com/jmarkussen",
       linkedin: "https://linkedin.com/in/joelmarkussen"
-    }
+    },
+    cv: "/cv/joel.pdf"
   },
     {
     name: "Maja",
@@ -25,7 +27,8 @@ export const team = [
     socials: {
       github: "https://github.com/majskolbe",
       linkedin: "https://linkedin.com/in/maja-petterson"
-    }
+    },
+    cv: "/cv/maja.pdf"
   },
     {
     name: "Oda",
@@ -34,7 +37,8 @@ export const team = [
     socials: {
       github: "https://github.com/Odalopheim",
       linkedin: "https://www.linkedin.com/in/odalundeopheim"
-    }
+    },
+     cv: "/cv/oda.pdf"
   },
     {
     name: "Sara",
@@ -43,6 +47,8 @@ export const team = [
     socials: {
       github: "https://github.com/sarastray",
       linkedin: "https://www.linkedin.com/in/sara-marie-stray"
-    }
+    },
+    cv: "/cv/sara.pdf"
   }
+  
 ];
