@@ -1,15 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="header">
-      <h1>Gruppe 7 Portefølje</h1>
-      <nav className="nav-links">
-        <a href="#about">Om oss</a>
-        <a href="#projects">Prosjekter</a>
-        <a href="#contact">Kontakt</a>
-      </nav>
+      <div className="header-container">
+    
+        <h1 className="logo">
+      <Link to="/" onClick={() => setIsOpen(false)} className="logo-link">Gruppe 7 Portefølje</Link>
+        </h1>
+
+        {/* Desktop nav */}
+        <nav className={`nav-links ${isOpen ? "open" : ""}`}>
+          <Link to="/" onClick={() => setIsOpen(false)}>Hjem</Link>
+          <Link to="/OmOss" onClick={() => setIsOpen(false)}>Om oss</Link>
+          <Link to="/projects" onClick={() => setIsOpen(false)}>Prosjekter</Link>
+          <Link to="/contact" onClick={() => setIsOpen(false)}>Kontakt</Link>
+        </nav>
+
+        {/* Hamburger ikon */}
+        <button
+          className="menu-toggle"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
+      </div>
     </header>
   );
 }
