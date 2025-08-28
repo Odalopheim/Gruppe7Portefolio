@@ -14,7 +14,7 @@ export const team = [
   {
     name: "Joel",
     role: "Quality Control, Prosjektleder",
-    image: "/images/joel.png",
+    image: "/images/joel.jpg",
     socials: {
       github: "https://github.com/jmarkussen",
       linkedin: "https://linkedin.com/in/joelmarkussen"
