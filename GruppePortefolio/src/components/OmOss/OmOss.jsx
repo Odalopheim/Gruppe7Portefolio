@@ -7,8 +7,8 @@ const members = [
     img: "/images/eline.jpg",
     shortDescription: "Frontend-utvikler med interesse for design og brukeropplevelse.",
     moreInfo: {
-      about: "Skriv kort om deg selv",
-      professional: "Hva liker du faglig?"
+      about: "Jeg er 22 år og kommer fra Haugesund. På fritiden liker jeg å være aktiv, enten det er å løpe, gå turer eller prøve nye treningsformer. Jeg har også en lidenskap for matlaging og liker å eksperimentere med nye oppskrifter. I tillegg spiller jeg piano, leser bøker, hekler og finner alltid tid til morsomme opplevelser med venner. Som person er jeg selvstendig, strukturert og pliktoppfyllende. Jeg trives med å ta initiativ, prøve nye ting og lære underveis – både i jobb og fritid.",
+      professional: "Jeg har en interesse for frontend-utvikling, UX/design, planlegging, prototyper og wireframes, samt samarbeid i team. Jeg holder frister og er pålitelig i oppgavene jeg får. Jeg ønsker praktisk erfaring med hvordan frontend og backend samarbeider, og å lære av mine medstudenter gjennom felles prosjekter. Jeg tar gjerne initiativ, eksperimenterer og spør om hjelp når det trengs."
     }
   },
   {
