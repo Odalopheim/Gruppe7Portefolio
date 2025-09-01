@@ -52,3 +52,17 @@
     text-align: center;
   }
 }
+
+.goals-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 20px;
+}
+
+.goal-icon {
+  font-size: 3rem;
+  color: #bfcbe6;
+  margin-top: 10px;
+  flex-shrink: 0;
+}
