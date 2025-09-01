@@ -108,6 +108,13 @@
   align-items: flex-start;
 }
 
+.modal-img-wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .modal-img {
   width: 200px;
   height: 300px;
@@ -124,8 +131,15 @@
   margin-top: 1rem;
 }
 
-.modal h2, .modal h3 {
+.modal h2 {
   margin-bottom: 0.5rem;
+}
+
+.modal h3 {
+    margin: 0.5rem 0;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #0284c7; /* blå strek */
+  display: inline-block; /* streken følger teksten */
 }
 
 .modal p {
@@ -146,6 +160,37 @@
   color: #333;
 }
 
+/* Sosiale ikoner under bildet */
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.social-icon-wrapper {
+  display: inline-flex;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: #0284c7;
+  padding: 0.3rem; /* mindre padding for mindre ikoner */
+  transition: all 0.2s ease;
+}
+
+.social-icon-wrapper:hover {
+  transform: scale(1.1);
+  border-color: #0284c7;
+  background-color: white;
+  color: #0284c7;
+}
+
+.social-icon {
+  width: 28px; /* mindre størrelse */
+  height: 28px;
+  color: white;
+  transition: inherit;
+}
+
+
 /* Responsivt */
 @media (max-width: 768px) {
   .grid {
@@ -164,6 +209,11 @@
 
   .modal-info {
     text-align: center;
+  }
+
+  .social-icon {
+    width: 48px;  /* md:h-12 md:w-12 */
+    height: 48px;
   }
 }
 
