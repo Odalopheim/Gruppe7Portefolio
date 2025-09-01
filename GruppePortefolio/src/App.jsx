@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Members from "./components/team/Members";
 import OmOss from "./components/OmOss/OmOss";
+import Goals from "./components/goals/Goals";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Hero />
               <About />
               <Members />
+              <Goals />
               <Contact />
             </>
           }
