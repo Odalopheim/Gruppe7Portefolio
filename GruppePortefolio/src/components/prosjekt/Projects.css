@@ -15,18 +15,17 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 40px;
 }
 
 .project-card {
-  background-color: #f9f9f9;
-  padding: 20px;
+  padding: 20px; /* flyttet hit */
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-
 .project-card:hover {
+  background-color: #f9f9f9;
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
@@ -34,10 +33,57 @@
 .project-card h3 {
   margin-top: 0;
   margin-bottom: 10px;
-  color: #007bff;
+  color: #013a77;
 }
 
 .project-card p {
   color: #555;
   line-height: 1.5;
+
+}
+
+hr {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+ 
+button {
+  background-color: #57a5f9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+a {
+  color: rgb(10, 134, 243);
+  text-decoration-line: none;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
