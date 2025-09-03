@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "../Hero/Hero.css"; 
 
 function ProjectHero() {
   return (
