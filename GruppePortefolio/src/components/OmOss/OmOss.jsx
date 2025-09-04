@@ -52,11 +52,11 @@ const members = [
     name: "Sara Marie Stray",
     img: "/images/sara.jpg",
     shortDescription: "Frontend-utvikler med med fokus på testing.",
-    github: "",
+    github: "https://github.com/sarastray",
     linkedin:"https://www.linkedin.com/in/sara-marie-stray/",
     moreInfo: {
-      about: "Skriv kort om deg selv",
-      professional: "Hva liker du faglig?"
+      about: "Jeg er 23 år og kommer fra Kristiansand. Jeg holder aktivt på med bueskyting og trives godt med å være ute. Når jeg vil koble av liker jeg å pusle, lese eller løse kryssord. Jeg liker også å være med venner, enten bare være sammen eller spille brettspill. Som person er jeg pliktoppfyllende og lærevillig, og synes det er gøy å utfordre med selv men nye oppgaver.",
+      professional: "Jeg interesserer meg mest for frontend, men vil gjerne utfordre meg selv og lære mer om backend. Jeg synes universell utforming og brukervennlighet er viktig og har et godt øye for å se feil og mangler. I tillegg synes jeg testing er viktig og jeg liker å passe på at alt funker som det skal. Jeg lærer godt gjennom praktisk arbeid og trives godt med å jobbe i team hvor man kan samarbeide og spørre om hjelp hvis man støter på utfordringer."
     }
   },
 ];
