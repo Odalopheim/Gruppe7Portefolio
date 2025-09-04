@@ -32,8 +32,9 @@ const members = [
     github: "https://github.com/majskolbe",
     linkedin:"https://www.linkedin.com/in/maja-petterson/",
     moreInfo: {
-      about: "Skriv kort om deg selv",
-      professional: "Hva liker du faglig?"
+      about: "Jeg er 22 år og kommer fra Tønsberg. På fritiden er jeg glad i å holde meg aktiv, enten det er gjennom trening eller friluftsliv. Matlaging er også en stor interesse og liker å utforske nye smakskombinasjoner og oppskrifter. I tillegg interesserer jeg meg for ekstremsport, og driver med fallskjermhopping når det er sesong for det. Som person er jeg pliktoppfyllende, selvstendig, nysgjerrig og trives med å ha orden og system i arbeidet mitt. ",
+      professional: "Jeg har en stor interesse for både frontend og backend-utvikling og spesielt godt å programmere og jobbe med databaser. Nylig har jeg også fått øynene opp for kunstig intelligens, spesielt innenfor bildegjenkjenning. Jeg lærer best gjennom praktisk arbeid og trives godt i samarbeid med andre."
+
     }
   },
   {
