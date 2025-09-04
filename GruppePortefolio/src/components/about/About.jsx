@@ -15,8 +15,11 @@ function About() {
         <div className="about-box">
           <h3>...</h3>
           <p>
-            Du kan fortelle hvor dere holder til – og hvorfor det er en fordel. 
-            Kanskje nevne studiested, samarbeidsformer, eller andre detaljer.
+            Flere av oss har jobbet sammen siden første semester, mens andre har kommet til underveis fordi de hadde kompetanse gruppen trengte, samt at vi alle kommer godt overens 
+            - og ikke minst jobber godt sammen! 
+          Vi har gjennom årene funnet en måte som passer godt for oss å jobbe på, og som vektlegger engasjement, ansvar og å ta eierskap til sitt eget og gruppas arbeid.
+           I tillegg så er vi nok en av gruppene som kan skryte på oss høyt oppmøte. For oss har deltakelse vært nøkkelen til en god prosess. 
+
           </p>
         </div>
       </div>
