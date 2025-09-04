@@ -32,8 +32,9 @@ const members = [
     github: "https://github.com/majskolbe",
     linkedin:"https://www.linkedin.com/in/maja-petterson/",
     moreInfo: {
-      about: "Skriv kort om deg selv",
-      professional: "Hva liker du faglig?"
+      about: "Jeg er 22 år og kommer fra Tønsberg. På fritiden er jeg glad i å holde meg aktiv, enten det er gjennom trening eller friluftsliv. Matlaging er også en stor interesse og liker å utforske nye smakskombinasjoner og oppskrifter. I tillegg interesserer jeg meg for ekstremsport, og driver med fallskjermhopping når det er sesong for det. Som person er jeg pliktoppfyllende, selvstendig, nysgjerrig og trives med å ha orden og system i arbeidet mitt. ",
+      professional: "Jeg har en stor interesse for både frontend og backend-utvikling og spesielt godt å programmere og jobbe med databaser. Nylig har jeg også fått øynene opp for kunstig intelligens, spesielt innenfor bildegjenkjenning. Jeg lærer best gjennom praktisk arbeid og trives godt i samarbeid med andre."
+
     }
   },
   {
@@ -44,18 +45,18 @@ const members = [
     linkedin:"https://www.linkedin.com/in/odalundeopheim/",
     moreInfo: {
       about: "Jeg er 22 år og kommer fra Stavanger. På fritiden liker jeg å være sosial med venner, enten det er å spille volleyball eller ha spillekveld. Jeg er også glad i å gå turer, både i fjellet og på små runder i nærområdet. Jeg liker å lære nye ting, og synes det er verdifullt å lære gjennom både mestring og feil. ",
-      professional: "Jeg er intresert i forntend,men også backend og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cyber security-avdelingen hos Aker Solutions fikk jeg innsikt i hva man må tenke på for å kunne sikre et netverk og hvordan man kan gjøre det. Jeg liker å jobbe praktisk,og å samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne å ta litt initiativ og er ikke redd for å prøve eller å spørre om hjelp når det trengs."
+      professional: "Jeg er intresert i forntend, men også backend og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cyber security-avdelingen hos Aker Solutions fikk jeg innsikt i hva man må tenke på for å kunne sikre et netverk og hvordan man kan gjøre det. Jeg liker å jobbe praktisk,og å samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne å ta litt initiativ og er ikke redd for å prøve eller å spørre om hjelp når det trengs."
     }
   },
   {
     name: "Sara Marie Stray",
     img: "/images/sara.jpg",
     shortDescription: "Frontend-utvikler med med fokus på testing.",
-    github: "",
+    github: "https://github.com/sarastray",
     linkedin:"https://www.linkedin.com/in/sara-marie-stray/",
     moreInfo: {
-      about: "Skriv kort om deg selv",
-      professional: "Hva liker du faglig?"
+      about: "Jeg er 23 år og kommer fra Kristiansand. Jeg holder aktivt på med bueskyting og trives godt med å være ute. Når jeg vil koble av liker jeg å pusle, lese eller løse kryssord. Jeg liker også å være med venner, enten bare være sammen eller spille brettspill. Som person er jeg pliktoppfyllende og lærevillig, og synes det er gøy å utfordre med selv men nye oppgaver.",
+      professional: "Jeg interesserer meg mest for frontend, men vil gjerne utfordre meg selv og lære mer om backend. Jeg synes universell utforming og brukervennlighet er viktig og har et godt øye for å se feil og mangler. I tillegg synes jeg testing er viktig og jeg liker å passe på at alt funker som det skal. Jeg lærer godt gjennom praktisk arbeid og trives godt med å jobbe i team hvor man kan samarbeide og spørre om hjelp hvis man støter på utfordringer."
     }
   },
 ];
@@ -75,7 +76,9 @@ function OmOss() {
       </div>
 
       <h2 className="title">Vårt Team</h2>
-      <p className="subtitle">Her er teamet vårt</p>
+      <p className="subtitle">Vi er en variert gjeng med ulike bakgrunner, erfaringer og interesser. 
+        I gruppen finner du både ferske studenter og en med mastergrad, noe som gir oss en god balanse mellom erfaring og nye perspektiver. 
+        Denne variasjonen gjør at vi lærer av hverandre og skaper et sterkt faglig miljø</p>
 
       <div className="grid">
         {members.map((member, index) => (
