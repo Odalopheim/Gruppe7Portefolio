@@ -27,7 +27,7 @@ const members = [
   },
   {
     name: "Maja Solberg Petterson",
-    img: "/images/maja.png",
+    img: "/images/maja.jpg",
     shortDescription: "Backend-utvikler og nestleder.",
     github: "https://github.com/majskolbe",
     linkedin:"https://www.linkedin.com/in/maja-petterson/",
@@ -68,7 +68,7 @@ function OmOss() {
       {/* Gruppebilde placeholder */}
       <div className="group-img-container">
         <img 
-          src="/images/Placeholder.jpg"
+          src="/images/gruppebilde.jpg"
           alt="Gruppebilde Kommer snart"
           className="group-img"
         />
