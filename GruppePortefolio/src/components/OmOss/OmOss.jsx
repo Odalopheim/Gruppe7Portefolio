@@ -76,7 +76,9 @@ function OmOss() {
       </div>
 
       <h2 className="title">Vårt Team</h2>
-      <p className="subtitle">Her er teamet vårt</p>
+      <p className="subtitle">Vi er en variert gjeng med ulike bakgrunner, erfaringer og interesser. 
+        I gruppen finner du både ferske studenter og en med mastergrad, noe som gir oss en god balanse mellom erfaring og nye perspektiver. 
+        Denne variasjonen gjør at vi lærer av hverandre og skaper et sterkt faglig miljø</p>
 
       <div className="grid">
         {members.map((member, index) => (

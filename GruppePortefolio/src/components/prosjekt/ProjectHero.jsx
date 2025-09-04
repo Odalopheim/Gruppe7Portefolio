@@ -5,6 +5,7 @@ function ProjectHero() {
   return (
     <section id="hero" className="hero-section">
       <h2>Prosjekter</h2>
+      
     </section>
   );
 }
