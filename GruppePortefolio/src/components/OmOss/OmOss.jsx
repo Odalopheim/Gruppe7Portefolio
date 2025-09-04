@@ -1,47 +1,58 @@
 import React, { useState } from "react";
 import "./OmOss.css";
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 
 const members = [
   {
     name: "Eline Widvey",
     img: "/images/eline.jpg",
     shortDescription: "Frontend-utvikler med interesse for design og brukeropplevelse.",
+    github: "https://github.com/ElineWi",
+    linkedin: "https://www.linkedin.com/in/eline-widvey/",
     moreInfo: {
-      about: "Jeg er 22 år og kommer fra Haugesund. På fritiden liker jeg å være aktiv, enten det er å løpe, gå turer eller prøve nye treningsformer. Jeg har også en lidenskap for matlaging og liker å eksperimentere med nye oppskrifter. I tillegg spiller jeg piano, leser bøker, hekler og finner alltid tid til morsomme opplevelser med venner. Som person er jeg selvstendig, strukturert og pliktoppfyllende. Jeg trives med å ta initiativ, prøve nye ting og lære underveis – både i jobb og fritid.",
-      professional: "Jeg har en interesse for frontend-utvikling, UX/design, planlegging, prototyper og wireframes, samt samarbeid i team. Jeg holder frister og er pålitelig i oppgavene jeg får. Jeg ønsker praktisk erfaring med hvordan frontend og backend samarbeider, og å lære av mine medstudenter gjennom felles prosjekter. Jeg tar gjerne initiativ, eksperimenterer og spør om hjelp når det trengs."
+      about: "Jeg er 22 år og kommer fra Haugesund. Jeg liker å være aktiv, enten det er å løpe eller gå turer, og er veldig interessert i matlaging, hvor jeg liker å eksperimentere med nye oppskrifter. I tillegg spiller jeg piano, leser bøker, hekler og finner alltid tid til morsomme opplevelser med venner. Som person er jeg selvstendig, strukturert og pliktoppfyllende, og jeg trives med å ta initiativ, prøve nye ting og lære underveis.",
+      professional: "Interessen min ligger i frontend-utvikling, UX/design, planlegging, prototyper og wireframes, og jeg trives godt med å jobbe i team. Jeg holder frister og er pålitelig i oppgavene jeg får. Jeg ønsker praktisk erfaring med hvordan frontend og backend samarbeider, og å lære av mine medstudenter gjennom felles prosjekter. Jeg tar gjerne initiativ, eksperimenterer og spør om hjelp når det trengs."
     }
   },
   {
-    name: "Joel",
+    name: "Joel Worraphon Markussen",
     img: "/images/joel.jpg",
     shortDescription: "Prosjektleder og koordinator i gruppen.",
+    github: "https://github.com/jmarkussen",
+    linkedin:"https://www.linkedin.com/in/joelmarkussen/",
     moreInfo: {
       about: "Skriv kort om deg selv",
       professional: "Hva liker du faglig?"
     }
   },
   {
-    name: "Maja",
+    name: "Maja Solberg Petterson",
     img: "/images/maja.png",
     shortDescription: "Backend-utvikler og nestleder.",
+    github: "https://github.com/majskolbe",
+    linkedin:"https://www.linkedin.com/in/maja-petterson/",
     moreInfo: {
       about: "Skriv kort om deg selv",
       professional: "Hva liker du faglig?"
     }
   },
   {
-    name: "Oda",
+    name: "Oda Lunde Opheim",
     img: "/images/oda.jpg",
     shortDescription: "Fullstack-utvikler",
+    github: "https://github.com/Odalopheim",
+    linkedin:"https://www.linkedin.com/in/odalundeopheim/",
     moreInfo: {
       about: "Skriv kort om deg selv",
       professional: "Hva liker du faglig?"
     }
   },
   {
-    name: "Sara",
+    name: "Sara Marie Stray",
     img: "/images/sara.jpg",
     shortDescription: "Frontend-utvikler med med fokus på testing.",
+    github: "",
+    linkedin:"https://www.linkedin.com/in/sara-marie-stray/",
     moreInfo: {
       about: "Skriv kort om deg selv",
       professional: "Hva liker du faglig?"
@@ -81,25 +92,50 @@ function OmOss() {
       </div>
 
       {selectedMember && (
-      <div className="modal-overlay" onClick={() => setSelectedMember(null)}>
-        <div className="modal" onClick={(e) => e.stopPropagation()}>
-          <button className="close-btn" onClick={() => setSelectedMember(null)}>×</button>
-      
-        <div className="modal-top">
-          <img src={selectedMember.img} alt={selectedMember.name} className="modal-img" />
-            <div className="modal-info">
-              <h3>Litt om meg</h3>
-              <p>{selectedMember.moreInfo.about}</p>
+        <div className="modal-overlay" onClick={() => setSelectedMember(null)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn" onClick={() => setSelectedMember(null)}>×</button>
+
+            <div className="modal-top">
+              {/* Bilde + ikoner */}
+              <div className="modal-img-wrapper">
+                <img src={selectedMember.img} alt={selectedMember.name} className="modal-img" />
+                <div className="social-links">
+                  {selectedMember.github && (
+                    <a
+                      href={selectedMember.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-icon-wrapper"
+                    >
+                      <BiLogoGithub className="social-icon" />
+                    </a>
+                  )}
+                  {selectedMember.linkedin && (
+                    <a
+                      href={selectedMember.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="social-icon-wrapper"
+                    >
+                      <BiLogoLinkedin className="social-icon" />
+                    </a>
+                  )}
+                </div>
+              </div>
+
+              {/* Tekst */}
+              <div className="modal-info">
+                <h3>Litt mer om {selectedMember.name}</h3>
+                <p>{selectedMember.moreInfo.about}</p>
+
+                <h3>Faglige interesser</h3>
+                <p>{selectedMember.moreInfo.professional}</p>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className="modal-bottom">
-          <h3>Faglige interesser</h3>
-          <p>{selectedMember.moreInfo.professional}</p>
-        </div>
-      </div>
-    </div>
-)}
+      )}
     </div>
   );
 }
