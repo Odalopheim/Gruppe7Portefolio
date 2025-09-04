@@ -1,4 +1,4 @@
-import "./goals.css";
+import "./Goals.css";
 import { FaBullseye, FaRocket, FaStar, FaMedal } from "react-icons/fa";
 
 function Goals() {
