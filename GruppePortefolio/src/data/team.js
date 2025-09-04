@@ -9,7 +9,7 @@ export const team = [
       linkedin: "https://linkedin.com/in/eline-widvey"
     },
     cv: "/cv/eline.pdf",
-    about: "Eline har praksis i kristiansand komunen, hun har og universel utforming"
+    about: "Eline har praksis i Kristiansand kommune, og har fokus på universel utforming"
   },
   {
     name: "Joel",
@@ -20,7 +20,7 @@ export const team = [
       linkedin: "https://linkedin.com/in/joelmarkussen"
     },
     cv: "/cv/joel.pdf",
-    about: "Joel har praksis hos knowit han har og deltids job på elkjøp."
+    about: "Joel har praksis hos Knowit og han har deltidsjob på Elkjøp."
   },
     {
     name: "Maja",
@@ -31,7 +31,7 @@ export const team = [
       linkedin: "https://linkedin.com/in/maja-petterson"
     },
     cv: "/cv/maja.pdf",
-    about: "Maja har praksis dette semesteret der det kommer til å gjennkjenne laks i en lakse elv her på sørlandet."
+    about: "Maja har praksis dette semesteret hvor det skal brukes maskinlæring til å gjennkjenne laks i Mandalselva."
   },
     {
     name: "Oda",
@@ -42,7 +42,7 @@ export const team = [
       linkedin: "https://www.linkedin.com/in/odalundeopheim"
     },
      cv: "/cv/oda.pdf",
-     about: "Oda har praksis i moment analyse hun har også vært summer intern i cyber securety department hos aker solutions to sommere på rad"
+     about: "Oda har praksis i Moment Analyse og hun har vært summer intern i Cyber Security Department hos Aker Solutions to sommere på rad"
   },
     {
     name: "Sara",
@@ -53,7 +53,7 @@ export const team = [
       linkedin: "https://www.linkedin.com/in/sara-marie-stray"
     },
     cv: "/cv/sara.pdf",
-    about: "Sara har et praksis i Tingtun og var utveksling i Asterike  det fjeresemesteret."
+    about: "Sara har praksis i Tingtun og var på utveksling i Østerrike 4.semester."
   }
   
 ];
