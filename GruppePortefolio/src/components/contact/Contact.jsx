@@ -4,11 +4,16 @@ import "./Contact.css";
 function Contact() {
   return (
     <section id="contact" className="contact-section">
-      <h2>Kontakt oss</h2>
-      <p>Email: <a href="mailto:gruppe7@example.com">gruppe7@example.com</a></p>
-      <div className="button-container">
-        <button>Send melding</button>
-      </div>
+      <h2>Ta kontakt</h2>
+      <p>Lurer du på noe? Ta gjerne kontakt!</p>
+
+      <form className="contact-form">
+        <input type="text" placeholder="Fornavn" required />
+        <input type="text" placeholder="Etternavn" required />
+        <input type="email" placeholder="E-post" required />
+        <textarea placeholder="Din melding" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
     </section>
   );
 }
