@@ -25,7 +25,7 @@ export const team = [
     {
     name: "Maja",
     role: "Backend Utvikler, Nestleder",
-    image: "/images/maja.png",
+    image: "/images/maja.jpg",
     socials: {
       github: "https://github.com/majskolbe",
       linkedin: "https://linkedin.com/in/maja-petterson"
@@ -47,7 +47,7 @@ export const team = [
     {
     name: "Sara",
     role: "Frontend Utvikler, Produkt tester",
-    image: "",
+    image: "/images/sara.jpg",
     socials: {
       github: "https://github.com/sarastray",
       linkedin: "https://www.linkedin.com/in/sara-marie-stray"
