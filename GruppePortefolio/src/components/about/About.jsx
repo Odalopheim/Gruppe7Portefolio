@@ -7,8 +7,9 @@ function About() {
         <div className="about-box">
           <h3>Hvem er vi?</h3>
           <p>
-            Her kan du forklare hva gruppen din jobber med og hvem dere er. 
-            Du kan også inkludere en kort setning om deres mål og verdier.
+            Vi er en engasjert og sammensatt gruppe med studenter som elsker å jobbe sammen for å gjennomføre et så godt prosjekt som mulig. 
+            Vi ønsker først og fremst å utvikle oss faglig, og legger stor vekt på både sluttresultatet og en god arbeidsprosess med refleksjon og dokumentasjon underveis. 
+            Alle på gruppen har oppnådd gode resultater og karakterer så langt på studiet, og det skal vi fortsette med!
           </p>
         </div>
         <div className="about-box">
