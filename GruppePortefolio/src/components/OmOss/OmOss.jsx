@@ -45,7 +45,7 @@ const members = [
     linkedin:"https://www.linkedin.com/in/odalundeopheim/",
     moreInfo: {
       about: "Jeg er 22 år og kommer fra Stavanger. På fritiden liker jeg å være sosial med venner, enten det er å spille volleyball eller ha spillekveld. Jeg er også glad i å gå turer, både i fjellet og på små runder i nærområdet. Jeg liker å lære nye ting, og synes det er verdifullt å lære gjennom både mestring og feil. ",
-      professional: "Jeg er intresert i forntend,men også backend og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cyber security-avdelingen hos Aker Solutions fikk jeg innsikt i hva man må tenke på for å kunne sikre et netverk og hvordan man kan gjøre det. Jeg liker å jobbe praktisk,og å samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne å ta litt initiativ og er ikke redd for å prøve eller å spørre om hjelp når det trengs."
+      professional: "Jeg er intresert i forntend, men også backend og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cyber security-avdelingen hos Aker Solutions fikk jeg innsikt i hva man må tenke på for å kunne sikre et netverk og hvordan man kan gjøre det. Jeg liker å jobbe praktisk,og å samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne å ta litt initiativ og er ikke redd for å prøve eller å spørre om hjelp når det trengs."
     }
   },
   {

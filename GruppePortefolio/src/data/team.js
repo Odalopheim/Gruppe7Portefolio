@@ -35,7 +35,7 @@ export const team = [
   },
     {
     name: "Oda",
-    role: "Fullstack Utvikler, HR",
+    role: "Fullstack Utvikler",
     image: "/images/oda.jpg",
     socials: {
       github: "https://github.com/Odalopheim",
