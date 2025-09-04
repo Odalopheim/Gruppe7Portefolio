@@ -21,8 +21,8 @@ const members = [
     github: "https://github.com/jmarkussen",
     linkedin:"https://www.linkedin.com/in/joelmarkussen/",
     moreInfo: {
-      about: "Skriv kort om deg selv",
-      professional: "Hva liker du faglig?"
+      about: "Jeg er 29 år og kommer fra Son i Akershus. På fritiden liker jeg å løpe og klatre, og er ellers interessert i brettspill, D&D, og fotball. Jeg har også en lidenskap for å lese fantasy og sci-fi. Fra tidligere har jeg tatt i en master i historie, og originalt hadde jeg en plan om bli lærer. Med min alder og bakgrunn så er jeg en erfaren student, men jeg er fortsatt energisk, lærevillig og kreativ. De siste årene har jeg fått lov å følge drømmen min å studere en bachelor i IT og Informasjonssystemer, og jeg er strålende fornøyd med den nye veien jeg har valgt.",
+      professional: "Faglig er jeg spesielt interessert i å fortsette å lære mer om systemutvikling. Ellers spesialiserer jeg meg på det akademiske aspektet av studiehverdagen. Som en erfaren student er jeg komfortabel med å ha en lederolle i gruppen, har ofte hatt overordnet ansvar for tid og kvalitet i tidligere prosjekter som Scrum Master. Jeg er glad i å samarbeide, og står innefor at de beste resultatene er de man oppnår når alle er med å bidrar og spiller hverandre gode!"
     }
   },
   {
