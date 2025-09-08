@@ -1,4 +1,5 @@
 // src/data/team.js
+
 export const team = [
   {
     name: "Eline",
@@ -23,6 +24,7 @@ export const team = [
     about: "Joel har praksis hos Knowit og han har deltidsjob på Elkjøp."
   },
     {
+
     name: "Maja",
     role: "Backend Utvikler, Nestleder",
     image: "/images/maja.jpg",
@@ -45,6 +47,7 @@ export const team = [
      about: "Oda har praksis i Moment Analyse og hun har vært summer intern i Cyber Security Department hos Aker Solutions to sommere på rad"
   },
     {
+    
     name: "Sara",
     role: "Frontend Utvikler, Produkt tester",
     image: "/images/sara.jpg",

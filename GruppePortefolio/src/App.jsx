@@ -32,12 +32,14 @@ function App() {
         {/* Om oss side */}
         <Route
           path="/OmOss" element={ <> <OmOss /> </> } />
+          <Route path="/OmOss/:id" element={<OmOss />} />
 
         {/* Prosjekter side */}
         <Route path="/projects" element={<Projects />} />
 
         {/* Kontakt side */}
         <Route path="/contact" element={<Contact />} />
+
       </Routes>
       <Footer />
     </Router>
