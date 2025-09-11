@@ -8,7 +8,7 @@
 .contact-section h2 {
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #2d3f68; 
   margin-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@
   display: block;
   width: 100%;
   padding: 12px;
-  background-color: #333;
+  background-color: #2d3f68; 
   color: white;
   border: none;
   border-radius: 6px;
@@ -55,5 +55,5 @@
 }
 
 .contact-form button:hover {
-  background-color: #555;
+  background-color: #3E5290;
 }

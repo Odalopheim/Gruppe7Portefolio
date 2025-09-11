@@ -9,6 +9,7 @@ const members = [
     shortDescription: "Frontend-utvikler med interesse for design og brukeropplevelse.",
     github: "https://github.com/ElineWi",
     linkedin: "https://www.linkedin.com/in/eline-widvey/",
+    cv: "/cv/eline.pdf",
     moreInfo: {
       about: "Jeg er 22 år og kommer fra Haugesund. Jeg liker å være aktiv, enten det er å løpe eller gå turer, og er veldig interessert i matlaging, hvor jeg liker å eksperimentere med nye oppskrifter. I tillegg spiller jeg piano, leser bøker, hekler og finner alltid tid til morsomme opplevelser med venner. Som person er jeg selvstendig, strukturert og pliktoppfyllende, og jeg trives med å ta initiativ, prøve nye ting og lære underveis.",
       professional: "Interessen min ligger i frontend-utvikling, UX/design, planlegging, prototyper og wireframes, og jeg trives godt med å jobbe i team. Jeg holder frister og er pålitelig i oppgavene jeg får. Jeg ønsker praktisk erfaring med hvordan frontend og backend samarbeider, og å lære av mine medstudenter gjennom felles prosjekter. Jeg tar gjerne initiativ, eksperimenterer og spør om hjelp når det trengs."
@@ -26,6 +27,30 @@ const members = [
     }
   },
   {
+    name: "Sara Marie Stray",
+    img: "/images/sara.jpg",
+    shortDescription: "Frontend-utvikler med med fokus på testing.",
+    github: "https://github.com/sarastray",
+    linkedin:"https://www.linkedin.com/in/sara-marie-stray/",
+    cv: "/cv/elineCV.pdf",
+    moreInfo: {
+      about: "Jeg er 23 år og kommer fra Kristiansand. Jeg holder aktivt på med bueskyting og trives godt med å være ute. Når jeg vil koble av liker jeg å pusle, lese eller løse kryssord. Jeg liker også å være med venner, enten bare være sammen eller spille brettspill. Som person er jeg pliktoppfyllende og lærevillig, og synes det er gøy å utfordre med selv men nye oppgaver.",
+      professional: "Jeg interesserer meg mest for frontend, men vil gjerne utfordre meg selv og lære mer om backend. Jeg synes universell utforming og brukervennlighet er viktig og har et godt øye for å se feil og mangler. I tillegg synes jeg testing er viktig og jeg liker å passe på at alt funker som det skal. Jeg lærer godt gjennom praktisk arbeid og trives godt med å jobbe i team hvor man kan samarbeide og spørre om hjelp hvis man støter på utfordringer."
+    }
+  },
+  {
+    name: "Oda Lunde Opheim",
+    img: "/images/oda.jpg",
+    shortDescription: "Fullstack-utvikler og ansvar for systemdesign.",
+    github: "https://github.com/Odalopheim",
+    linkedin:"https://www.linkedin.com/in/odalundeopheim/",
+    cv: "/cv/oda.pdf",
+    moreInfo: {
+      about: "Jeg er 22 år og kommer fra Stavanger. På fritiden liker jeg å være sosial med venner, enten det er å spille volleyball eller ha spillekveld. Jeg er også glad i å gå turer, både i fjellet og på små runder i nærområdet. Jeg liker å lære nye ting, og synes det er verdifullt å lære gjennom både mestring og feil. ",
+      professional: "Jeg er intresert i forntend, men også backend og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cyber security-avdelingen hos Aker Solutions fikk jeg innsikt i hva man må tenke på for å kunne sikre et netverk og hvordan man kan gjøre det. Jeg liker å jobbe praktisk,og å samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne å ta litt initiativ og er ikke redd for å prøve eller å spørre om hjelp når det trengs."
+    }
+  },
+  {
     name: "Maja Solberg Petterson",
     img: "/images/maja.jpg",
     shortDescription: "Backend-utvikler og nestleder.",
@@ -35,28 +60,6 @@ const members = [
       about: "Jeg er 22 år og kommer fra Tønsberg. På fritiden er jeg glad i å holde meg aktiv, enten det er gjennom trening eller friluftsliv. Matlaging er også en stor interesse og liker å utforske nye smakskombinasjoner og oppskrifter. I tillegg interesserer jeg meg for ekstremsport, og driver med fallskjermhopping når det er sesong for det. Som person er jeg pliktoppfyllende, selvstendig, nysgjerrig og trives med å ha orden og system i arbeidet mitt. ",
       professional: "Jeg har en stor interesse for både frontend og backend-utvikling og spesielt godt å programmere og jobbe med databaser. Nylig har jeg også fått øynene opp for kunstig intelligens, spesielt innenfor bildegjenkjenning. Jeg lærer best gjennom praktisk arbeid og trives godt i samarbeid med andre."
 
-    }
-  },
-  {
-    name: "Oda Lunde Opheim",
-    img: "/images/oda.jpg",
-    shortDescription: "Fullstack-utvikler",
-    github: "https://github.com/Odalopheim",
-    linkedin:"https://www.linkedin.com/in/odalundeopheim/",
-    moreInfo: {
-      about: "Jeg er 22 år og kommer fra Stavanger. På fritiden liker jeg å være sosial med venner, enten det er å spille volleyball eller ha spillekveld. Jeg er også glad i å gå turer, både i fjellet og på små runder i nærområdet. Jeg liker å lære nye ting, og synes det er verdifullt å lære gjennom både mestring og feil. ",
-      professional: "Jeg er intresert i forntend, men også backend og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cyber security-avdelingen hos Aker Solutions fikk jeg innsikt i hva man må tenke på for å kunne sikre et netverk og hvordan man kan gjøre det. Jeg liker å jobbe praktisk,og å samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne å ta litt initiativ og er ikke redd for å prøve eller å spørre om hjelp når det trengs."
-    }
-  },
-  {
-    name: "Sara Marie Stray",
-    img: "/images/sara.jpg",
-    shortDescription: "Frontend-utvikler med med fokus på testing.",
-    github: "https://github.com/sarastray",
-    linkedin:"https://www.linkedin.com/in/sara-marie-stray/",
-    moreInfo: {
-      about: "Jeg er 23 år og kommer fra Kristiansand. Jeg holder aktivt på med bueskyting og trives godt med å være ute. Når jeg vil koble av liker jeg å pusle, lese eller løse kryssord. Jeg liker også å være med venner, enten bare være sammen eller spille brettspill. Som person er jeg pliktoppfyllende og lærevillig, og synes det er gøy å utfordre med selv men nye oppgaver.",
-      professional: "Jeg interesserer meg mest for frontend, men vil gjerne utfordre meg selv og lære mer om backend. Jeg synes universell utforming og brukervennlighet er viktig og har et godt øye for å se feil og mangler. I tillegg synes jeg testing er viktig og jeg liker å passe på at alt funker som det skal. Jeg lærer godt gjennom praktisk arbeid og trives godt med å jobbe i team hvor man kan samarbeide og spørre om hjelp hvis man støter på utfordringer."
     }
   },
 ];
@@ -77,8 +80,8 @@ function OmOss() {
 
       <h2 className="title">Vårt Team</h2>
       <p className="subtitle">Vi er en variert gjeng med ulike bakgrunner, erfaringer og interesser. 
-        I gruppen finner du både ferske studenter og en med mastergrad, noe som gir oss en god balanse mellom erfaring og nye perspektiver. 
-        Denne variasjonen gjør at vi lærer av hverandre og skaper et sterkt faglig miljø</p>
+        I gruppen finner du både ferske studenter og en med mastergrad, noe som gir oss en god balanse mellom kunnskap og nye perspektiver. 
+        Denne variasjonen gjør at vi lærer av hverandre og sammen skaper et sterkt faglig miljø.</p>
 
       <div className="grid">
         {members.map((member, index) => (
@@ -122,6 +125,16 @@ function OmOss() {
                       className="social-icon-wrapper"
                     >
                       <BiLogoLinkedin className="social-icon" />
+                    </a>
+                  )}
+                  {selectedMember.cv && (
+                    <a
+                      href={selectedMember.cv}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cv-link"
+                    >
+                      CV
                     </a>
                   )}
                 </div>

@@ -13,7 +13,7 @@ function About() {
           </p>
         </div>
         <div className="about-box">
-          <h3>...</h3>
+          <h3>Vår historie</h3>
           <p>
             Flere av oss har jobbet sammen siden første semester, mens andre har kommet til underveis fordi de hadde kompetanse gruppen trengte, samt at vi alle kommer godt overens 
             - og ikke minst jobber godt sammen! 
