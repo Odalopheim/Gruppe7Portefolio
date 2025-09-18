@@ -19,10 +19,14 @@ function About() {
             - og ikke minst jobber godt sammen! 
           Vi har gjennom årene funnet en måte som passer godt for oss å jobbe på, og som vektlegger engasjement, ansvar og å ta eierskap til sitt eget og gruppas arbeid.
            I tillegg så er vi nok en av gruppene som kan skryte på oss høyt oppmøte. For oss har deltakelse vært nøkkelen til en god prosess. 
-
           </p>
         </div>
       </div>
+
+      {/* Bildet er hentet fra https://storyset.com/illustration/team-goals/cuate
+      <div className="goals-image">
+        <img src="/images/Team spirit.png"/> 
+      </div>  */}
     </section>
   );
 }
