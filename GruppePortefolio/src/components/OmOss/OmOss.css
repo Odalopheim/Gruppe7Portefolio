@@ -143,7 +143,7 @@
 .modal h3 {
     margin: 0.5rem 0;
     padding-bottom: 0.3rem;
-    border-bottom: 2px solid #2d3f68;  /* blå strek under */
+    border-bottom: 2px solid #2d3f68;  
   display: inline-block; /* streken følger teksten */
 }
 
@@ -177,7 +177,7 @@
   display: inline-flex;
   border: 2px solid transparent;
   border-radius: 50%;
-  background-color: #2d3f68; /* mørk grønn */
+  background-color: #2d3f68;
   padding: 0.3rem;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -185,19 +185,19 @@
 
 .social-icon-wrapper:hover {
   transform: scale(1.1);
-  background-color: #F5F5DC; /* lysere grønn */
-  border-color: #2d3f68; /* beholder mørk grønn kant */
+  background-color: #F5F5DC; 
+  border-color: #2d3f68; 
 }
 
 /* Endre ikonfargen på hover */
 .social-icon-wrapper:hover .social-icon {
-  color: #2d3f68; /* ikonene blir mørke grønne, synlige på lysere grønn bakgrunn */
+  color: #2d3f68; 
 }
 
 .social-icon {
   width: 28px;
   height: 28px;
-  color: white; /* standard ikonfarge */
+  color: white; 
   transition: inherit;
 }
 
