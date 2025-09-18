@@ -10,23 +10,24 @@ export default function TeamMemberCard({ member }) {
       />
       <h3 className="text-xl font-semibold">{member.name}</h3>
       <p className="text-gray-500">{member.role}</p>
-      <div className="flex justify-center gap-4 mt-3">
+      {/* <div className="flex justify-center gap-4 mt-3">
         {member.socials.github && (
           <a href={member.socials.github} target="_blank" rel="noopener noreferrer">
-            <Github />
+            <Github className="icon"/> 
           </a>
         )}
         {member.socials.linkedin && (
           <a href={member.socials.linkedin} target="_blank" rel="noopener noreferrer">
-            <Linkedin />
+            <Linkedin className="icon"/> 
           </a>
         )}
         {member.cv && (
           <a href={member.cv} target="_blank" rel="noopener noreferrer">
-            <FileText /> 
+            <FileText className="icon"/> 
           </a>
         )}
       </div>
+      */} 
     </div>
   );
 }

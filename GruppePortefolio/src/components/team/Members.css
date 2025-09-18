@@ -1,15 +1,17 @@
 .members-section {
   max-width: 1000px;
+  margin-top: 0.1rem;
   margin: 50px auto;
   padding: 30px 20px;
   text-align: center;
   font-family: Arial, sans-serif;
+  margin-bottom: 4rem;
 }
 
 .members-section h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 30px;
-  color: #333;
+  color: #2D3F68;
 }
 
 .team-members-grid {
@@ -32,4 +34,27 @@
   border-radius: 10px;
   display: block;
   margin: 50px auto 20px; 
+}
+/* Ikon-lenker */
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon-link:hover {
+  transform: scale(1.1); /* Liten zoom-effekt på hover */
+}
+
+/* Ikoner */
+.icon {
+  font-size: 1.5rem; /* Størrelse på ikonene */
+  color: #2d3f68; /* Fargen på ikonene */
+  transition: color 0.2s ease;
+}
+
+.icon-link:hover .icon {
+  color: #3c8a53; /* Endre farge på hover (valgfritt) */
 }

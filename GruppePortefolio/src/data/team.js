@@ -8,7 +8,7 @@ export const team = [
       github: "https://github.com/ElineWi",
       linkedin: "https://linkedin.com/in/eline-widvey"
     },
-    cv: "/cv/eline.pdf",
+    cv: "/cv/elineCV.pdf",
     about: "Eline har praksis i Kristiansand kommune, og har fokus på universel utforming"
   },
   {
@@ -23,6 +23,28 @@ export const team = [
     about: "Joel har praksis hos Knowit og han har deltidsjob på Elkjøp."
   },
     {
+    name: "Sara",
+    role: "Frontend Utvikler, Triveselsansvarlig",
+    image: "/images/sara.jpg",
+    socials: {
+      github: "https://github.com/sarastray",
+      linkedin: "https://www.linkedin.com/in/sara-marie-stray"
+    },
+    cv: "/cv/sara.pdf",
+    about: "Sara har praksis i Tingtun og var på utveksling i Østerrike 4.semester."
+  },
+    {
+    name: "Oda",
+    role: "Fullstack Utvikler, Kontaktperson.",
+    image: "/images/oda.jpg",
+    socials: {
+      github: "https://github.com/Odalopheim",
+      linkedin: "https://www.linkedin.com/in/odalundeopheim"
+    },
+     cv: "/cv/oda.pdf",
+     about: "Oda har praksis i Moment Analyse og hun har vært summer intern i Cyber Security Department hos Aker Solutions to sommere på rad"
+  },
+  {
     name: "Maja",
     role: "Backend Utvikler, Nestleder",
     image: "/images/maja.jpg",
@@ -33,27 +55,5 @@ export const team = [
     cv: "/cv/maja.pdf",
     about: "Maja har praksis dette semesteret hvor det skal brukes maskinlæring til å gjennkjenne laks i Mandalselva."
   },
-    {
-    name: "Oda",
-    role: "Fullstack Utvikler",
-    image: "/images/oda.jpg",
-    socials: {
-      github: "https://github.com/Odalopheim",
-      linkedin: "https://www.linkedin.com/in/odalundeopheim"
-    },
-     cv: "/cv/oda.pdf",
-     about: "Oda har praksis i Moment Analyse og hun har vært summer intern i Cyber Security Department hos Aker Solutions to sommere på rad"
-  },
-    {
-    name: "Sara",
-    role: "Frontend Utvikler, Produkt tester",
-    image: "/images/sara.jpg",
-    socials: {
-      github: "https://github.com/sarastray",
-      linkedin: "https://www.linkedin.com/in/sara-marie-stray"
-    },
-    cv: "/cv/sara.pdf",
-    about: "Sara har praksis i Tingtun og var på utveksling i Østerrike 4.semester."
-  }
   
 ];

@@ -1,6 +1,6 @@
 /* Fjerner standard link-stil for logoen */
 .logo-link {
-  color: inherit;
+  color: #2d3f68; 
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .nav-links a:hover {
-  color: #6a11cb; 
+  color: #3E5290; 
 }
 
 /* Hamburger knapp når den er på mobil størrelse */

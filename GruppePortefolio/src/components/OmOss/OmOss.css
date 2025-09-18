@@ -21,6 +21,7 @@
 .title {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  color: #2d3f68;
 }
 
 .subtitle {
@@ -128,6 +129,7 @@
 
 .modal-info {
   flex: 1;
+  color: #4A5A7A;
 }
 
 .modal-bottom {
@@ -141,7 +143,7 @@
 .modal h3 {
     margin: 0.5rem 0;
     padding-bottom: 0.3rem;
-    border-bottom: 2px solid #0284c7; /* blå strek */
+    border-bottom: 2px solid #2d3f68;  
   display: inline-block; /* streken følger teksten */
 }
 
@@ -170,29 +172,58 @@
   margin-top: 0.5rem;
 }
 
+/* Sosiale ikoner */
 .social-icon-wrapper {
   display: inline-flex;
   border: 2px solid transparent;
   border-radius: 50%;
-  background-color: #0284c7;
-  padding: 0.3rem; /* mindre padding for mindre ikoner */
+  background-color: #2d3f68;
+  padding: 0.3rem;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 
 .social-icon-wrapper:hover {
   transform: scale(1.1);
-  border-color: #0284c7;
-  background-color: white;
-  color: #0284c7;
+  background-color: #F5F5DC; 
+  border-color: #2d3f68; 
+}
+
+/* Endre ikonfargen på hover */
+.social-icon-wrapper:hover .social-icon {
+  color: #2d3f68; 
 }
 
 .social-icon {
-  width: 28px; /* mindre størrelse */
+  width: 28px;
   height: 28px;
-  color: white;
+  color: white; 
   transition: inherit;
 }
 
+/* Oppdatering for CV-knappen */ 
+.cv-link { 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid transparent; 
+    border-radius: 50%; 
+    background-color: 
+    #2d3f68; width: 40px;  
+    height: 40px; 
+    color:white; 
+    font-size: 0.9rem; 
+    font-weight: bold; 
+    text-decoration: none; 
+    transition: all 0.2s ease; 
+} 
+
+.cv-link:hover { 
+    transform: scale(1.1); 
+    border-color: #2d3f68; 
+    background-color: #F5F5DC;
+    color: #2d3f68;
+}
 
 /* Responsivt */
 @media (max-width: 768px) {

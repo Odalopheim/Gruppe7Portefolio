@@ -32,6 +32,8 @@ function App() {
         {/* Om oss side */}
         <Route
           path="/OmOss" element={ <> <OmOss /> </> } />
+        <Route 
+        path="/OmOss" element={<OmOss />} />
 
         {/* Prosjekter side */}
         <Route path="/projects" element={<Projects />} />

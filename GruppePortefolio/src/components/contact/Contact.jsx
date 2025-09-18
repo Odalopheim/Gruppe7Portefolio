@@ -1,4 +1,6 @@
 import React from "react";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { MdEmail } from "react-icons/md";
 import "./Contact.css";
 
 function Contact() {
@@ -7,16 +9,18 @@ function Contact() {
       <h2>Ta kontakt</h2>
       <p>Lurer du på noe? Ta gjerne kontakt!</p>
 
-      <form className="contact-form">
-        <input type="text" placeholder="Fornavn" required />
-        <input type="text" placeholder="Etternavn" required />
-        <input type="email" placeholder="E-post" required />
-        <textarea placeholder="Din melding" rows="5" required></textarea>
-        <button type="submit">Send</button>
-      </form>
+      <div className="contact-links">
+        <a href="mailto:odalo@uia.no" className="contact-icon" title="Send e-post">
+          <MdEmail size={32} />
+        </a>
+        <span className="contact-text">odalo@uia.no</span>
+        <a href="https://www.linkedin.com/in/odalundeopheim/" target="_blank" rel="noopener noreferrer" className="contact-icon" title="LinkedIn">
+          <BiLogoLinkedin size={32} />
+        </a>
+        <span className="contact-text">odalundeopheim</span>
+      </div>
     </section>
   );
 }
 
 export default Contact;
-
