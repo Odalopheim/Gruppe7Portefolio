@@ -2,7 +2,7 @@
 export const team = [
   {
     name: "Eline",
-    role: "UX-Designer, Scrum Master",
+    role: "Scrum Master, UX-Designer",
     image: "/images/eline.jpg",
     socials: {
       github: "https://github.com/ElineWi",
@@ -13,7 +13,7 @@ export const team = [
   },
   {
     name: "Joel",
-    role: "Quality Control, Prosjektleder",
+    role: "Prosjektleder, Quality Control",
     image: "/images/joel.jpg",
     socials: {
       github: "https://github.com/jmarkussen",
@@ -24,7 +24,9 @@ export const team = [
   },
     {
     name: "Sara",
-    role: "Frontend Utvikler, Triveselsansvarlig",
+
+    role: "Trivsels ansvarlig, Frontend Utvikler",
+
     image: "/images/sara.jpg",
     socials: {
       github: "https://github.com/sarastray",
@@ -35,7 +37,9 @@ export const team = [
   },
     {
     name: "Oda",
-    role: "Fullstack Utvikler, Kontaktperson.",
+
+    role: "Kontakt person, Fullstack Utvikler",
+
     image: "/images/oda.jpg",
     socials: {
       github: "https://github.com/Odalopheim",
@@ -46,7 +50,7 @@ export const team = [
   },
   {
     name: "Maja",
-    role: "Backend Utvikler, Nestleder",
+    role: "Nestleder, Backend Utvikler",
     image: "/images/maja.jpg",
     socials: {
       github: "https://github.com/majskolbe",
