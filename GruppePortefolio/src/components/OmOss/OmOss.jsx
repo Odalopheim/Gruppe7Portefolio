@@ -6,7 +6,7 @@ const members = [
   {
     name: "Eline Widvey",
     img: "/images/eline.jpg",
-    shortDescription: "Frontend-utvikler med interesse for design og brukeropplevelse.",
+    shortDescription: "Scrum Master og UX-Designer",
     github: "https://github.com/ElineWi",
     linkedin: "https://www.linkedin.com/in/eline-widvey/",
     cv: "/cv/eline.pdf",
@@ -18,7 +18,7 @@ const members = [
   {
     name: "Joel Worraphon Markussen",
     img: "/images/joel.jpg",
-    shortDescription: "Prosjektleder og koordinator i gruppen.",
+    shortDescription: "Prosjektleder og Quality Control.",
     github: "https://github.com/jmarkussen",
     linkedin:"https://www.linkedin.com/in/joelmarkussen/",
     moreInfo: {
@@ -29,7 +29,7 @@ const members = [
   {
     name: "Sara Marie Stray",
     img: "/images/sara.jpg",
-    shortDescription: "Frontend-utvikler med med fokus på testing.",
+    shortDescription: "Trivsels ansvarlig og Frontend Utvikler",
     github: "https://github.com/sarastray",
     linkedin:"https://www.linkedin.com/in/sara-marie-stray/",
     cv: "/cv/elineCV.pdf",
@@ -41,7 +41,7 @@ const members = [
   {
     name: "Oda Lunde Opheim",
     img: "/images/oda.jpg",
-    shortDescription: "Fullstack-utvikler og ansvar for systemdesign.",
+    shortDescription: "Kontakt person og Fullstack Utvikler.",
     github: "https://github.com/Odalopheim",
     linkedin:"https://www.linkedin.com/in/odalundeopheim/",
     cv: "/cv/oda.pdf",
@@ -53,7 +53,7 @@ const members = [
   {
     name: "Maja Solberg Petterson",
     img: "/images/maja.jpg",
-    shortDescription: "Backend-utvikler og nestleder.",
+    shortDescription: "Nestleder og Backend Utvikler.",
     github: "https://github.com/majskolbe",
     linkedin:"https://www.linkedin.com/in/maja-petterson/",
     moreInfo: {
