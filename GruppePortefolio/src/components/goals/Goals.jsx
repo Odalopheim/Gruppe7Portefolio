@@ -8,19 +8,28 @@ function Goals() {
       <div className="goals-container">
         <div className="goals-box">
           <span className="goal-icon">
-            <FaBullseye />
+            <FaRocket />
           </span>
-          <h3>Ambisjon 1</h3>
-          <p>Få et resultat alle er stolt over.</p>
+          <h3>Ambisjoner</h3>
+          <ul>
+            <li>Få erfaring og kunnskap som kan brukes videre i arbeidslivet.</li>
+            <li>Få et resultat alle er stolt over.</li>
+          </ul>
+          
         </div>
         <div className="goals-box">
           <span className="goal-icon">
-            <FaRocket />
+            <FaStar />
           </span>
-          <h3>Forventning 1</h3>
-          <p>Alle på gruppen bidrar og gjør sitt beste.</p>
+          <h3>Forventninger</h3>
+          <ul>
+            <li>Alle på gruppen bidrar og gjør sitt beste.</li>
+            <li>Å jobbe med et prosjekt som krever ulike kompetanser.</li>
+          </ul>
+          
+          
         </div>
-        <div className="goals-box">
+        {/*<div className="goals-box">
           <span className="goal-icon">
             <FaStar />
           </span>
@@ -33,8 +42,12 @@ function Goals() {
           </span>
           <h3>Forventning 2</h3>
           <p>Å jobbe med et prosjekt som krever ulike kompetanser.</p>
-        </div>
+        </div>*/}
       </div>
+        {/* Bildet er hentet fra https://storyset.com/illustration/team-spirit/pana*/}  
+        <div className="goals-image">
+          <img src="/images/Team goals.png"/>
+        </div>  
     </section>
   );
 }

@@ -29,7 +29,9 @@ const members = [
   {
     name: "Sara Marie Stray",
     img: "/images/sara.jpg",
+
     shortDescription: "Trivsels ansvarlig og Frontend Utvikler",
+
     github: "https://github.com/sarastray",
     linkedin:"https://www.linkedin.com/in/sara-marie-stray/",
     cv: "/cv/elineCV.pdf",
@@ -41,7 +43,9 @@ const members = [
   {
     name: "Oda Lunde Opheim",
     img: "/images/oda.jpg",
+
     shortDescription: "Kontakt person og Fullstack Utvikler.",
+
     github: "https://github.com/Odalopheim",
     linkedin:"https://www.linkedin.com/in/odalundeopheim/",
     cv: "/cv/oda.pdf",

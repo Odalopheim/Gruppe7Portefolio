@@ -28,7 +28,7 @@
 
 .goals-section {
   padding: 4rem 2rem; 
-  padding-bottom: 6rem;
+  padding-bottom: 0.1rem;
   background-color: #fff;
   font-family: Arial, sans-serif;
   max-width: 1000px; 
@@ -40,8 +40,14 @@
   font-size: 2.2rem;
   color: #2d3f68;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   position: relative;
+}
+
+.goals-box li {
+  margin-bottom: 0.8rem; /* avstand mellom punktene */
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 .goals-container {
@@ -78,6 +84,16 @@
   margin-bottom: 1rem;
 }
 
+.goals-image {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.goals-image img {
+  max-width: 500px; /* gjør bildet mindre */
+  height: auto;
+  border-radius: 10px; /* valgfritt, rundede kanter */
+}
 
 /* Responsivt design */
 @media (max-width: 768px) {

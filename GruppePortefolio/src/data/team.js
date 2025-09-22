@@ -24,7 +24,9 @@ export const team = [
   },
     {
     name: "Sara",
-    role: "Trivsels ansvarlig,Frontend Utvikler",
+
+    role: "Trivsels ansvarlig, Frontend Utvikler",
+
     image: "/images/sara.jpg",
     socials: {
       github: "https://github.com/sarastray",
@@ -35,7 +37,9 @@ export const team = [
   },
     {
     name: "Oda",
+
     role: "Kontakt person, Fullstack Utvikler",
+
     image: "/images/oda.jpg",
     socials: {
       github: "https://github.com/Odalopheim",

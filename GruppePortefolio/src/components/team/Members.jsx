@@ -9,7 +9,7 @@ function Members() {
 
   return (
     <section id="members" className="members-section">
-      <h2>Gruppe Medlemmer</h2>
+      <h2>Gruppemedlemmer</h2>
       <div className="team-members-grid">
         {team.map((member) => (
           <div
