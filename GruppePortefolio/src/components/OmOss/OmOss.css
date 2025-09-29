@@ -30,7 +30,7 @@
   margin-bottom: 2rem;
   max-width: 900px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 0 1rem 4rem 1rem;
 }
 
 .grid {
@@ -223,6 +223,15 @@
     border-color: #2d3f68; 
     background-color: #F5F5DC;
     color: #2d3f68;
+}
+
+hr.stylish-hr {
+    width: 50%;               
+    margin: 2rem auto;        
+    border: none;             
+    height: 2px;             
+    background: rgba(45, 63, 104, 0.3);
+    border-radius: 1px;       
 }
 
 /* Responsivt */
