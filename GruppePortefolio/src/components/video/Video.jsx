@@ -4,7 +4,7 @@ import "./Video.css";
 function Video() {
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const thumbnail = "/public/images/gruppebilde.jpg"; 
+  const thumbnail = "/images/gruppebilde.jpg";
 
   return (
     <section id="video" className="video-section">
@@ -32,5 +32,3 @@ function Video() {
 }
 
 export default Video;
-
-
