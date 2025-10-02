@@ -361,3 +361,14 @@ hr.stylish-hr {
     padding: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .close-btn {
+    color: #fff; /* hvit på mobil */
+    text-shadow: 0 0 6px rgba(0,0,0,0.6); /* kontrast så den ikke forsvinner */
+  }
+
+  .close-btn:hover {
+    color: #f5f5dc; /* lys beige på hover */
+  }
+}
