@@ -76,6 +76,20 @@
   color: #444;
 }
 
+.see-more {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2d3f68;
+  transition: color 0.2s ease;
+}
+
+.card:hover .see-more {
+  color: #1a2a4d;
+  text-decoration: underline;
+}
+
+
 /* Modal styles */
 .modal-overlay {
   position: fixed;
