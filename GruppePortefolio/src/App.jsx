@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import Members from "./components/team/Members";
 import OmOss from "./components/OmOss/OmOss";
 import Goals from "./components/goals/Goals";
+import Video from "./components/video/Video";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <>
               <Hero />
               <About />
+              <Video />
               <Members />
               <Goals />
               <Contact />
