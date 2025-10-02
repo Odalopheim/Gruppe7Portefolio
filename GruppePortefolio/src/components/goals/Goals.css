@@ -90,9 +90,10 @@
 }
 
 .goals-image img {
-  max-width: 500px; /* gjør bildet mindre */
+  max-width: 500px; /* gjør bildet mindre på store skjermer */
+  width: 50%;      /* tilpasser seg små skjermer */
   height: auto;
-  border-radius: 10px; /* valgfritt, rundede kanter */
+  border-radius: 10px; 
 }
 
 /* Responsivt design */
