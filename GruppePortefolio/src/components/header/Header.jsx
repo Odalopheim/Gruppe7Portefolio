@@ -10,7 +10,7 @@ function Header() {
       <div className="header-container">
     
         <h1 className="logo">
-      <Link to="/" onClick={() => setIsOpen(false)} className="logo-link">Gruppe 7 Portefølje</Link>
+      <Link to="/" onClick={() => setIsOpen(false)} className="logo-link">Gruppe 7</Link>
         </h1>
 
         {/* Desktop nav */}
