@@ -42,6 +42,7 @@ const galleryImages = [
                 alt: "Aktivitet",
                 description: "Alle sammen smil!"
             },
+            /* Legg til flere bilder her senere!
             {
                 src: "/images/teambuilding3.jpg",
                 alt: "Pizzabilde",
@@ -51,7 +52,7 @@ const galleryImages = [
                 src: "/images/teambuilding4.jpg",
                 alt: "Samarbeid",
                 description: "Godt samarbeid i aksjon"
-            }
+            }*/
         ]
     }
 ];
