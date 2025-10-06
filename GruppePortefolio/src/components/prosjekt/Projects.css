@@ -1,45 +1,310 @@
 .projects-section {
-  max-width: 1000px;
-  margin: 50px auto;
-  padding: 30px 20px;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 40px 30px;
   text-align: center;
   font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .projects-section h2 {
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   color: #2d3f68;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.projects-section h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #2d3f68;
+  border-radius: 1.5px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem 1rem;
+}
+
+hr.stylish-hr {
+    width: 50%;               
+    margin: 2rem auto;        
+    border: none;             
+    height: 2px;             
+    background: rgba(45, 63, 104, 0.3);
+    border-radius: 1px;       
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
+  margin-top: 30px;
 }
 
 .project-card {
-  padding: 20px; /* flyttet hit */
+  padding: 20px;
   border-radius: 12px;
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
 }
 .project-card:hover {
   background-color: #f9f9f9;
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  border-color: #d0d0d0;
 }
 
 .project-card h3 {
   margin-top: 0;
-  margin-bottom: 10px;
-  color: #4A5A7A;
+  margin-bottom: 15px;
+  color: #2d3f68;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 .project-card p {
   color: #555;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 1px;
+}
 
+/* Demo media styles */
+.project-media-container {
+  width: 100%;
+  height: 180px; /* Redusert høyde */
+  margin: 15px 0;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex; /* Legger til flex for å sentrere innholdet */
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.project-media {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Endret fra cover til contain for å vise hele bildet */
+  transition: transform 0.3s ease;
+  background-color: #f7f7f7; /* Lys bakgrunn for å fremheve GIF-en */
+}
+
+.project-media:hover {
+  transform: scale(1.05);
+}
+
+.project-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 10px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Styling for project cards with and without demo */
+.project-with-demo {
+  min-height: 360px;
+}
+
+.project-without-demo {
+  min-height: 180px;
+  padding: 15px;
+}
+
+.placeholder-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 300px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.project-link, .project-link-button {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #2d3f68;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-link:hover, .project-link-button:hover {
+  background-color: #4a5a7a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Modal styles */
+.media-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.media-modal {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 850px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #f1f1f1;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.close-modal-btn:hover {
+  background-color: #e1e1e1;
+  transform: scale(1.1);
+}
+
+.modal-media {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.modal-title {
+  font-size: 2rem;
+  color: #2d3f68;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.modal-subtitle {
+  font-size: 1.4rem;
+  color: #4a5a7a;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.modal-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.modal-content {
+  padding: 10px 0;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tech-tag {
+  background-color: #f0f5ff;
+  color: #2d3f68;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #d0e0ff;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.team-member {
+  background-color: #f5f5f5;
+  color: #444;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #e0e0e0;
 }
 
 hr {

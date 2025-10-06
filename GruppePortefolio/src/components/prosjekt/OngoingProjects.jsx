@@ -4,9 +4,7 @@ function OngoingProjects() {
    return (
      <section id="projects" className="projects-section">
       <h2>Praksis Prosjekter</h2>
-      <p>Dette semesteret har alle fått muligheten til å være i praksis, hvor vi får erfaring med ulike prosjekter som styrker våre individuelle ferdigheter. 
-        Interessen vår spenner bredt, fra frontend, backend og UX-design til universell utforming, dokumentasjon, testing, kundekontakt og kunstig intelligens. 
-        Sammen utfyller vi hverandre godt og står rustet til å møte de utfordringene som kommer.</p><br></br>
+      <p className="subtitle">Dette semesteret har vi hatt praksis og fått erfaring fra ulike prosjekter som styrker ferdighetene våre. Interessen vår spenner fra frontend, backend og UX-design til universell utforming, testing, kundekontakt og kunstig intelligens. Sammen utfyller vi hverandre og er godt rustet for fremtidige utfordringer</p><br></br>
       <div className="projects-grid">
         <div className="project-card">
           <h3>Kristiansand Kommune</h3>

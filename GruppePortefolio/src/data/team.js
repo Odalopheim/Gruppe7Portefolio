@@ -1,6 +1,7 @@
 // src/data/team.js
 export const team = [
   {
+    id: 1,
     name: "Eline",
     role: "Scrum Master, UX-Designer",
     image: "/images/eline.jpg",
@@ -12,6 +13,7 @@ export const team = [
     about: "Eline har praksis i Kristiansand kommune, og har fokus på universel utforming"
   },
   {
+    id: 2,
     name: "Joel",
     role: "Prosjektleder, Quality Control",
     image: "/images/joel.jpg",
@@ -23,6 +25,7 @@ export const team = [
     about: "Joel har praksis hos Knowit og han har deltidsjob på Elkjøp."
   },
     {
+    id: 3,
     name: "Sara",
 
     role: "Trivsels ansvarlig, Frontend Utvikler",
@@ -36,6 +39,7 @@ export const team = [
     about: "Sara har praksis i Tingtun og var på utveksling i Østerrike 4.semester."
   },
     {
+    id: 4,
     name: "Oda",
 
     role: "Kontakt person, Fullstack Utvikler",
@@ -49,6 +53,7 @@ export const team = [
      about: "Oda har praksis i Moment Analyse og hun har vært summer intern i Cyber Security Department hos Aker Solutions to sommere på rad"
   },
   {
+    id: 5,
     name: "Maja",
     role: "Nestleder, Backend Utvikler",
     image: "/images/maja.jpg",
