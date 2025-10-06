@@ -8,7 +8,7 @@ function Video() {
 
   return (
     <section id="video" className="video-section">
-      <h2>Promo Video</h2>
+      <h2>Bli kjent med oss!</h2>
       <div className="video-container">
         {!isPlaying ? (
           <div
