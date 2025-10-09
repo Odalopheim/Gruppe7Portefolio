@@ -20,13 +20,27 @@ const projects = [
     id: 2,
     title: "Rett i kartet",
     description: "Prosjekt vi hadde 3 semesteret for Kartverket som handlet om å kunne logføre og melde inn feil på kart.",
-    detailedDescription: "Skriv beskrivelse her!",
+    detailedDescription: "I dette semesterprosjektet utviklet vi 'Rett i kartet', en webapplikasjon for Kartverket som lar brukere enkelt rapportere og loggføre feil i kartdata. Netsiden integrerer kartvisning med et brukervennlig grensesnitt for innrapportering, og inkluderer funksjoner som stedfesting av feil, kategorisering, og opplasting av bilder. Dette verktøyet forbedrer Kartverkets evne til å vedlikeholde nøyaktige kartdata gjennom effektiv brukerinnsats.",
     /*technologies: ["React", "Node.js", "Express", "PostgreSQL", "Leaflet"],*/
     githubLink: "https://github.com/Odalopheim/Kartverket1",
      media: {
       type: "gif",
-      src: "Kommer snart", 
+      src: "https://github.com/user-attachments/assets/df8764cc-2511-4035-93fa-c79145e2f0db", 
       alt: "Rett i kartet Demo"
+    },
+    hasDemo: true
+  },
+  {
+    id: 3,
+    title: "Database Prosjekt",
+    description: "Database prosjekt vi hadde i 4 semester i IS-309 vidergående databasesystemer hvor vi lærte hvordan å lage og administrere databaser.",
+    detailedDescription: "I dette prosjektet jobbet vi med å lage testdata, prosedyrer, trigger-funksjoner og funksjoner for en sykkelutleietjeneste, hvor vi måtte ta hensyn til dataintegritet, forretningsregler og hvordan de ulike tabellene var koblet sammen. Vi måtte også sørge for at triggerne håndterte oppdateringer og slettinger på en konsistent måte, slik at systemet fungerte som forventet.",
+    /*technologies: ["React", "Node.js", "Express", "PostgreSQL", "Leaflet"],*/
+    githubLink: "https://github.com/simholmen/IS309-assignment2",
+     media: {
+      type: "gif",
+      src: "/demos/Database.gif",
+      alt: "Database Prosjekt Demo"
     },
     hasDemo: true
   }
@@ -72,9 +86,10 @@ function PastProjects() {
                 <a href={project.githubLink} target="_blank" rel="noreferrer" className="project-link">
                   Se på GitHub
                 </a>
+              
                 {project.hasDemo && (
                   <button className="project-link-button" onClick={() => setActiveMedia(project)}>
-                    Se demo
+                    Mer Info
                   </button>
                 )}
               </div>

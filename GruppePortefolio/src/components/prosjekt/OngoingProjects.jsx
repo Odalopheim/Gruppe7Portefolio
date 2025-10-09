@@ -17,7 +17,7 @@ function OngoingProjects() {
         </div>
         <div className="project-card">
           <h3>Moment Analyse</h3>
-          <p></p>
+          <p>Utvikler et systeme for å kunne logføre CO2 utslipp.</p>
 
             <a href="https://odalopheim.github.io/Praksis/index.html" target="_blank" rel="noreferrer">
 
@@ -26,14 +26,14 @@ function OngoingProjects() {
         </div>
         <div className="project-card">
           <h3>Tingtun</h3>
-          <p></p>
+          <p>Refaktorisering og forbedring av eksisterende nettside til Tigtun. </p>
             <a href="https://praksis2025.vercel.app/index.html" target="_blank" rel="noreferrer">
                 Link til nettside
             </a>
         </div>
         <div className="project-card">
           <h3>Knowit</h3>
-          <p></p>
+          <p>Bruker Microsoft Power Platforms til å registrere klimarapporter.</p>
 
             <a href="https://sites.google.com/view/knowitpraksis2025/hjem " target="_blank" rel="noreferrer">
 
@@ -43,7 +43,7 @@ function OngoingProjects() {
         <div className="project-card">
 
           <h3>Mandalselva Elveeigarlag</h3>
-          <p></p>
+          <p>Bruker maskinlæring for å overvåke laksebestanden i Mandalselva.</p>
             <a href="https://sites.google.com/view/mandalselvapraksis/hjem" target="_blank" rel="noreferrer">
 
                 Link til nettside
