@@ -8,7 +8,7 @@ function OngoingProjects() {
       <div className="projects-grid">
         <div className="project-card">
           <h3>Kristiansand Kommune</h3>
-          <p></p>
+          <p>Forbedrer digitale løsninger for byggeprosesser og brukervennlig informasjon.</p>
 
             <a href="https://praksis-kristiansand-kommune.vercel.app/" target="_blank" rel="noreferrer">
 
