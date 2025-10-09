@@ -13,6 +13,7 @@ function Members() {
       <div className="team-members-grid">
         {team.map((member) => (
           <div
+            key={member.id} 
             onClick={() => navigate(`/OmOss`)}
             style={{ cursor: "pointer" }}
           >

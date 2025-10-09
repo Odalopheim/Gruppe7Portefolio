@@ -10,7 +10,7 @@ function Projects() {
 <>
       <ProjectHero />
       <PastProjects/>
-      <hr></hr>
+      <hr className="stylish-hr"></hr>
       <OngoingProjects />
 </>
   );

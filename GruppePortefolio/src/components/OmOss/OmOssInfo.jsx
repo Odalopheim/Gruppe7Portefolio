@@ -98,7 +98,7 @@ function OmOss() {
             <img src={member.img} alt={member.name} className="profile-img" />
             <h3>{member.name}</h3>
             <p>{member.shortDescription}</p>
-            <p class="see-more">Se mer → </p>
+            <p className="see-more">Se mer → </p>
           </div>
         ))}
       </div>
