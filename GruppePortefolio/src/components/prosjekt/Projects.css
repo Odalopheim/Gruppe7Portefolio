@@ -87,6 +87,21 @@ hr.stylish-hr {
   margin-bottom: 1px;
 }
 
+/* Logo styles for project cards */
+.project-logo {
+  height: 80px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-logo img {
+  max-height: 100%;
+  max-width: 80%;
+  object-fit: contain;
+}
+
 /* Demo media styles */
 .project-media-container {
   width: 100%;
@@ -157,7 +172,8 @@ hr.stylish-hr {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-top: auto;
+  margin-top: 20px; /* Økt margin-top for å gi mer plass over knappene */
+  margin-bottom: 5px;
 }
 
 .project-link, .project-link-button {

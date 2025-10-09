@@ -50,8 +50,8 @@ const members = [
     linkedin:"https://www.linkedin.com/in/odalundeopheim/",
     cv: "/cv/oda.pdf",
     moreInfo: {
-      about: "Jeg er 22 år og kommer fra Stavanger. På fritiden liker jeg å være sosial med venner, enten det er å spille volleyball eller ha spillekveld. Jeg trives også med å gå turer, både i fjellet og på små runder i nærområdet.I tillegg bruker jeg mye tid som nestleder i NITO, hvor jeg er med på å planlegge kurs og arrangementer, noe som har gitt meg verdifull erfaring med organisasjonsarbeid og ledelse. Jeg liker å lære nye ting og synes det er verdifullt å utvikle meg gjennom både mestring og feil. ",
-      professional: "Jeg er interessert i frontend, men også backend, og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cyber security-avdelingen hos Aker Solutions har jeg fått innsikt i hva man må tenke på for å sikre et nettverk, og hvordan man kan gjøre det. Jeg liker å jobbe praktisk, samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne initiativ og er ikke redd for å prøve eller å be om hjelp når det trengs."
+      about: "Jeg er 22 år og kommer fra Stavanger. På fritiden liker jeg å være sosial med venner, enten det er å spille volleyball eller ha spillekveld. Jeg trives også med å gå turer, både i fjellet og på små runder i nærområdet. I tillegg bruker jeg mye tid som nestleder i NITO, hvor jeg er med på å planlegge kurs og arrangementer. Dette har gitt meg verdifull erfaring med organisasjonsarbeid og ledelse. Jeg liker å lære nye ting og synes det er verdifullt å utvikle meg gjennom både mestring og feiling.",
+      professional: "Jeg er interessert i frontend, men også backend, og liker å forstå hvordan ting henger sammen. Gjennom erfaring fra cybersikkerhetsavdelingen hos Aker Solutions har jeg fått innsikt i hva man må tenke på for å sikre et nettverk, og hvordan man kan gjøre det. Jeg liker å jobbe praktisk, samarbeide med andre og lære gjennom prosjekter. Jeg tar gjerne initiativ og er ikke redd for å prøve eller å be om hjelp når det trengs."
     }
   },
   {

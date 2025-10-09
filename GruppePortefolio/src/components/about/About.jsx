@@ -7,18 +7,19 @@ function About() {
         <div className="about-box">
           <h3>Hvem er vi?</h3>
           <p>
-            Vi er en engasjert og sammensatt gruppe med studenter som elsker å jobbe sammen for å gjennomføre et så godt prosjekt som mulig. 
-            Vi ønsker først og fremst å utvikle oss faglig, og legger stor vekt på både sluttresultatet og en god arbeidsprosess med refleksjon og dokumentasjon underveis. 
-            Alle på gruppen har oppnådd gode resultater og karakterer så langt på studiet, og det skal vi fortsette med!
+            Vi er en engasjert og sammensatt gruppe med studenter som brenner for å gjennomføre prosjekter som både skaper verdi og gir læring. 
+            Som gruppe kombinerer vi kreativitet og struktur, og vi elsker å utfordre oss selv og hverandre for å finne de beste løsningene. 
+            Vi jobber systematisk og tar oss tid til å forstå brukernes behov, samtidig som vi sikrer gode resultater gjennom en ryddig arbeidsprosess med dokumentasjon og refleksjon.
+            Vi ønsker å skape løsninger som gjør en forskjell, og som vi er stolte av å levere.
           </p>
         </div>
         <div className="about-box">
           <h3>Vår historie</h3>
           <p>
-            Flere av oss har jobbet sammen siden første semester, mens andre har kommet til underveis fordi de hadde kompetanse gruppen trengte, samt at vi alle kommer godt overens 
-            - og ikke minst jobber godt sammen! 
-          Vi har gjennom årene funnet en måte som passer godt for oss å jobbe på, og som vektlegger engasjement, ansvar og å ta eierskap til sitt eget og gruppas arbeid.
-           I tillegg så er vi nok en av gruppene som kan skryte på oss høyt oppmøte. For oss har deltakelse vært nøkkelen til en god prosess. 
+            Flere av oss har jobbet sammen siden første semester, mens andre har blitt en del av gruppen underveis og bidrat med ny kompetanse.
+            Gjennom årene har vi lært hva som skal til for å jobbe effektivt som gruppe, hvordan man takler nye utfordringer, og hvordan vi kan dra nytte av hverandres styrker.
+            Erfaringene våre har gjort oss mer fleksible, ansvarlige og engasjerte, og har formet en arbeidsmåte som fungerer godt for oss.
+            Sammen skaper vi et team som får ideer til å bli virkelighet.
           </p>
         </div>
       </div>
