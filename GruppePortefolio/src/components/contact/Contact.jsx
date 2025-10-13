@@ -1,6 +1,6 @@
 import React from "react";
 import { BiLogoLinkedin } from "react-icons/bi";
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdPhone } from "react-icons/md";
 import "./Contact.css";
 
 function Contact() {
@@ -10,6 +10,11 @@ function Contact() {
       <p>Lurer du på noe? Ta gjerne kontakt!</p>
 
       <div className="contact-links">
+        <a href="tel:+4747523578" className="contact-icon" title="Ring oss">
+          <MdPhone size={32} />
+        </a>
+        <span className="contact-text">475 23 578</span>
+
         <a href="mailto:odalo@uia.no" className="contact-icon" title="Send e-post">
           <MdEmail size={32} />
         </a>
