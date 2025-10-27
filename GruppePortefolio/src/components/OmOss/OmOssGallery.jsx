@@ -42,6 +42,11 @@ const galleryImages = [
                 alt: "Aktivitet",
                 description: "Alle sammen smil!"
             },
+            {
+                src: "/images/kos.jpg",
+                alt: "Sosialt",
+                description: "Torsdagsquiz på bare."
+            },
             /* Legg til flere bilder her senere!
             {
                 src: "/images/teambuilding3.jpg",
@@ -54,7 +59,33 @@ const galleryImages = [
                 description: "Godt samarbeid i aksjon"
             }*/
         ]
-    }
+    },
+    {
+       id: 3,
+        title: "RefreshIT",
+        images: [
+            {
+                src: "/images/gruppebilde2.jpg",
+                alt: "teambilde",
+                description: "Takk for en fin dag på RefreshIT!"
+            },
+            {
+                src: "/images/verksted.jpg",
+                alt: "Verksted",
+                description: "Her forbedere vi oss på RefreshIT og lager brosjyrer."
+            },
+            {
+                src: "/images/refreshIt.jpg",
+                alt: "RefreshIT",
+                description: "Mange spennende bachelorprosjekter!"
+            },
+            {
+                src: "/images/smil.jpg",
+                alt: "selfie",
+                description: "Her tar vi oss en pause etter speed dating."
+            },
+        ] 
+    },
 ];
 
 function OmOssGallery() {
