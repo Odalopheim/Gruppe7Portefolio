@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Hero from "./components/Hero/Hero";
 import About from "./components/about/About";
 import Projects from "./components/prosjekt/Projects";
@@ -14,6 +15,7 @@ import Video from "./components/video/Video";
 function App() {
   return (
     <Router>
+  <ScrollToTop />
       <Header />
       <Routes>
         {/* Forsiden */}
