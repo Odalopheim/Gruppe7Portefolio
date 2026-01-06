@@ -18,6 +18,7 @@ function Header() {
           <Link to="/" onClick={() => setIsOpen(false)}>Hjem</Link>
           <Link to="/OmOss" onClick={() => setIsOpen(false)}>Om oss</Link>
           <Link to="/projects" onClick={() => setIsOpen(false)}>Prosjekter</Link>
+          <Link to="/bachelor" onClick={() => setIsOpen(false)}>Bachelor</Link>
         </nav>
 
         {/* Hamburger ikon */}

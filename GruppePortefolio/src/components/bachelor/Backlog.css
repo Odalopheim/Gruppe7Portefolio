@@ -1,0 +1,213 @@
+.backlog-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 20px 40px;
+  min-height: 100vh;
+}
+
+.backlog-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.backlog-header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.backlog-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.backlog-filters {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 10px 25px;
+  border: 2px solid #007bff;
+  background: white;
+  color: #007bff;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.filter-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+.backlog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.backlog-item {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 5px solid #007bff;
+}
+
+.backlog-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.backlog-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.backlog-item h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 0;
+  flex: 1;
+}
+
+.priority-badge {
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.priority-høy {
+  background: #ff4444;
+  color: white;
+}
+
+.priority-middels {
+  background: #ffaa00;
+  color: white;
+}
+
+.priority-lav {
+  background: #4caf50;
+  color: white;
+}
+
+.backlog-item-description {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.backlog-item-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.meta-label {
+  color: #888;
+  font-weight: 500;
+}
+
+.meta-value {
+  color: #333;
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-ikke-startet {
+  background: #f0f0f0;
+  color: #666;
+}
+
+.status-pågår {
+  background: #2196f3;
+  color: white;
+}
+
+.status-ferdig {
+  background: #4caf50;
+  color: white;
+}
+
+.status-parkert {
+  background: #9e9e9e;
+  color: white;
+}
+
+.backlog-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  display: block;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+  .backlog-header h1 {
+    font-size: 2rem;
+  }
+
+  .backlog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .backlog-stats {
+    gap: 20px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+}

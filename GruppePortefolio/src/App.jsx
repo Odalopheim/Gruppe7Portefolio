@@ -11,6 +11,9 @@ import Members from "./components/team/Members";
 import OmOss from "./components/OmOss/OmOss";
 import Goals from "./components/goals/Goals";
 import Video from "./components/video/Video";
+import Bachelor from "./components/bachelor/Bachelor";
+import Backlog from "./components/bachelor/Backlog";
+import Kvalitet from "./components/bachelor/Kvalitet";
 
 function App() {
   return (
@@ -44,6 +47,11 @@ function App() {
 
         {/* Kontakt side */}
         <Route path="/contact" element={<Contact />} />
+
+        {/* Bachelor side */}
+        <Route path="/bachelor" element={<><Bachelor /> <Kvalitet/> <Backlog /> </>} />
+  
+
       </Routes>
       <Footer />
     </Router>
