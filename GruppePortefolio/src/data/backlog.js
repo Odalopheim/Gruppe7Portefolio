@@ -6,8 +6,8 @@
 const backlogItems = [
   {
     id: 1,
-    tittel: "Fikkse netsiden",
-    beskrivelse: "Endre og legge til innhold i henhold til oppgavemn",
+    tittel: "Fikse nettsiden",
+    beskrivelse: "Endre og legge til innhold i henhold til oppgaven",
     status: "pågår",
     prioritet: "høy",
     estimertTid: "2 dager",
@@ -15,31 +15,13 @@ const backlogItems = [
   },
   {
     id: 2,
-    tittel: "Prosjekt beskrivelse",
+    tittel: "Prosjektbeskrivelse",
     beskrivelse: "Få en forståelse over prosjektbeskrivelsen",
     status: "pågår",
     prioritet: "middels",
     estimertTid: "1 uke",
     ansvarlig: "Ikke tildelt"
   },
-  {
-    id: 3,
-    tittel: "SEO optimalisering",
-    beskrivelse: "Forbedre meta tags og laste inn tid",
-    status: "ikke-startet",
-    prioritet: "middels",
-    estimertTid: "3 dager",
-    ansvarlig: "Ikke tildelt"
-  },
-  {
-    id: 4,
-    tittel: "Testing",
-    beskrivelse: "Sette opp automatiserte tester med Vitest",
-    status: "ikke-startet",
-    prioritet: "lav",
-    estimertTid: "1 uke",
-    ansvarlig: "Ikke tildelt"
-  }
 ];
 
 export default backlogItems;

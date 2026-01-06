@@ -18,3 +18,26 @@
   margin: 0 auto;
   line-height: 1.6;
 }
+
+.quality-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.quality-section h2 {
+  color: #2d3f68; 
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.quality-section p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 1px;
+  max-width: 800px;
+  margin: 0 auto;
+}

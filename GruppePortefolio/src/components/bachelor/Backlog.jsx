@@ -22,7 +22,7 @@ const Backlog = () => {
   return (
     <div className="backlog-container">
       <div className="backlog-header">
-        <h1>Prosjekt Backlog</h1>
+        <h2>Prosjekt Backlog</h2>
         <p>Oversikt over alle oppgaver og deres status</p>
       </div>
 
