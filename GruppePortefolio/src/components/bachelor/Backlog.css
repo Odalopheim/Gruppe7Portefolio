@@ -10,10 +10,11 @@
   margin-bottom: 50px;
 }
 
-.backlog-header h1 {
-  font-size: 3rem;
-  color: #333;
-  margin-bottom: 10px;
+.backlog-header h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #2d3f68; 
 }
 
 .backlog-header p {
