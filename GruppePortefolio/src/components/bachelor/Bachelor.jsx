@@ -1,6 +1,4 @@
 import React from "react";
-import "./Bachelor.css";
-
 function Bachelor() {
   return (
     <section id="contact" className="contact-section">
@@ -11,4 +9,4 @@ function Bachelor() {
   );
 }
 
-export default Contact;
+export default Bachelor;

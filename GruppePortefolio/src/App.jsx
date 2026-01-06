@@ -12,6 +12,7 @@ import OmOss from "./components/OmOss/OmOss";
 import Goals from "./components/goals/Goals";
 import Video from "./components/video/Video";
 import Bachelor from "./components/bachelor/Bachelor";
+import Backlog from "./components/bachelor/Backlog";
 
 function App() {
   return (
@@ -47,7 +48,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
         {/* Bachelor side */}
-        <Route path="/bachelor" element={<Bachelor />} />
+        <Route path="/bachelor" element={<><Bachelor /> <Backlog /> </>} />
+  
+
       </Routes>
       <Footer />
     </Router>
