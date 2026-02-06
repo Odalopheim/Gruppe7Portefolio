@@ -14,6 +14,8 @@ import Video from "./components/video/Video";
 import Bachelor from "./components/bachelor/Bachelor";
 import Backlog from "./components/bachelor/Backlog";
 import Kvalitet from "./components/bachelor/Kvalitet";
+import Status1 from "./components/bachelor/Status1";
+import Status1Video from "./components/video/status1Video";
 
 function App() {
   return (
@@ -49,7 +51,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
         {/* Bachelor side */}
-        <Route path="/bachelor" element={<><Bachelor /> <Kvalitet/> <Backlog /> </>} />
+        <Route path="/bachelor" element={<><Bachelor /> <Kvalitet/> <Status1 /> <Status1Video /> <Backlog /> </>} />
   
 
       </Routes>

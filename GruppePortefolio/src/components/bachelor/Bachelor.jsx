@@ -5,8 +5,7 @@ function Bachelor() {
   return (
     <section id="bachelor" className="bachelor-section">
         <h2>Norkart</h2>
-        <p>Utforske ulike måter å bruke KI i en planprossess, med fokus på formidling, forståelse, og kontroll av konsekvenseutredning. Vi skal jobbe tett med brukere, kunder og fagfolk og utvikle flere proof-of-concepts som skal forenkle planprossesen for alle parter. Vi skal utforske flere prosjekter og målet er å finne teknsike muligheter og ha en fokus på sluttbrukerverdien.</p>
-
+        <p>Utforske hvordan KI kan brukes i en planprosess, med fokus på formidling, forståelse og kontroll av prosessen. Prosjektet skal utvikle proof-of-concepts som forenkler planprosessen for ulike aktører, inkludert innbyggere, høringsinstanser og fagfolk. Målet er å identifisere tekniske muligheter som gir konkret sluttbrukerverdi, og spisse løsningen mot spesifikke deler av planprosessen, for eksempel konsekvensutredning osv.</p>
     </section>
   );
 }
